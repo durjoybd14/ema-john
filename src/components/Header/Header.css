@@ -1,0 +1,35 @@
+.header img{
+    width: 25vw;
+    margin: 50px auto;
+    display: block;
+}
+
+.header nav{
+    font-size: 20px;
+    background: black;
+}   
+
+.header ul{
+    display: flex;
+    justify-content: center;
+}
+
+.header ul li{
+    list-style: none;
+}
+
+.header ul li a{
+        text-decoration: none;
+        margin-left: 25px;
+        color: #fafafa;
+        padding: 10px;
+        line-height: 45px;
+}
+
+.header ul li a:hover{
+        background-color: rgba(220, 220, 220, 0.479);
+        padding: 10px;
+        line-height: 45px;
+}
+
+
