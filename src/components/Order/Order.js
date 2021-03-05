@@ -12,6 +12,7 @@ const Order = () => {
     const handlePlaceOrder = () => {
         // console.log('order placed');
         setCart([]);
+        setOrderPlaced(true)
         processOrder();
     }
 
@@ -42,6 +43,7 @@ const Order = () => {
     let thankYou;
     if (orderPlaced) {
         thankYou = <img src={happyImage} alt="" />
+
     }
 
     return (

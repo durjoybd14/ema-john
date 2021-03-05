@@ -39,7 +39,7 @@ const Cart = (props) => {
             <p>Total Price: ${formatNumber(grandTotal)}</p>
             <br/>
             {
-                props.children
+                props.children 
             }
         </div>
     );
